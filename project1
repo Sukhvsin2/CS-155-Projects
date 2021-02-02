@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T23:45:17.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="jx13_-y95VVRimXB-d09" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T23:51:30.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="-0ViJ95JojkaYG5UipXC" version="14.2.9" type="github">
   <diagram id="iOAI2agfm6N_kvl-hyZa" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="IS9AqsBsIv8vELyO7aMR-14" value="Distributor Amount&lt;br&gt;Calculation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IS9AqsBsIv8vELyO7aMR-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IS9AqsBsIv8vELyO7aMR-16" target="IS9AqsBsIv8vELyO7aMR-20">
+        <mxCell id="IS9AqsBsIv8vELyO7aMR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IS9AqsBsIv8vELyO7aMR-16" target="IS9AqsBsIv8vELyO7aMR-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IS9AqsBsIv8vELyO7aMR-16" value="Net Profit&lt;br&gt;Calculation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -78,6 +78,15 @@
         </mxCell>
         <mxCell id="IS9AqsBsIv8vELyO7aMR-31" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IS9AqsBsIv8vELyO7aMR-35" value="grossBoxRevenue = ( adultTicketsSold * adultPrice ) + ( childTicketsSold * childPrice )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="630" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IS9AqsBsIv8vELyO7aMR-36" value="distributorAmount&amp;nbsp; =&amp;nbsp; &amp;nbsp;grossBoxRevenue * 0.8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="410" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IS9AqsBsIv8vELyO7aMR-37" value="netProfit = grossBoxRevenue - distributorAmount" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="280" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
