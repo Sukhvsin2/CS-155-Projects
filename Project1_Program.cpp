@@ -27,7 +27,7 @@ int main()
     distributorAmount = grossBoxRevenue * 0.8;
     netProfit = grossBoxRevenue - distributorAmount;
     
-    cout<<endl<<"Movie Name:"<<"                  "<<fixed<<setprecision(2)<<movieName<<endl;
+    cout<<endl<<"Movie Name:"<<setw(18)<<" "<<fixed<<setprecision(2)<<movieName<<endl;
     cout<<"Gross Box Office Revenue:"<<setw(6)<<fixed<<setprecision(2)<<"$ "<<grossBoxRevenue<<endl;
     cout<<"Distributor Amount:"<<setw(12)<<"$ "<<fixed<<setprecision(2)<<distributorAmount<<endl;
     cout<<"Net Profit:"<<setw(20)<<"$ "<<fixed<<setprecision(2)<<netProfit<<endl;
