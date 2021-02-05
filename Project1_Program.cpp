@@ -46,8 +46,7 @@ int main()
     netProfit = grossBoxRevenue - distributorAmount;
 
     // Displaying output as per the Project
-    cout << endl
-         << "Movie Name:" << setw(18) << " " << fixed << setprecision(2) << movieName << endl;
+    cout << endl<< "Movie Name:" << setw(18) << " " << fixed << setprecision(2) << movieName << endl;
     cout << "Gross Box Office Revenue:" << setw(6) << fixed << setprecision(2) << "$ " << grossBoxRevenue << endl;
     cout << "Distributor Amount:" << setw(12) << "$ " << fixed << setprecision(2) << distributorAmount << endl;
     cout << "Net Profit:" << setw(20) << "$ " << fixed << setprecision(2) << netProfit << endl;
