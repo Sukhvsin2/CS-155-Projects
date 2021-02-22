@@ -9,7 +9,7 @@
 **/
 #include <iostream>
 // String header file because i'm using stoi - String to Interger & size() for the size of date.
-#include <string>
+#include <math.h>
 
 using namespace std;
 
@@ -17,20 +17,23 @@ int main()
 {
     // Initilizing Variables
     int date, dd, mm;
-    string strDate;
     
     // Taking Input from user.
     cout<<"Enter the military date: ";
-    cin>>strDate;
-    // Converting string to interger.
-    date = stoi(strDate);
+    cin>>date;
     
-    if(strDate.size() == 8){
+    // checking reminder after dividing it to 10pow7
+    if(date/pow(10,7) == 0){
+    	
+        // If the date is more or less than 8-digits.
+        cout<<"Error: Date format error.\nIt should be proper 8-digit."<<endl;
+        
+    }else{
         // Fetching 2 numbers from the date
         dd = date % 100;
         
         // Day Validation
-        if(dd > 31 && dd < 1){
+        if(dd > 31 || dd < 1){
             cout<<"Error: Day is not in range of (1-31)!";
             return 0;
         }
@@ -42,7 +45,7 @@ int main()
         mm = date % 100;
         
         // Month Validation
-        if(mm > 12 && mm < 1){
+        if(mm > 12 || mm < 1){
             cout<<"Error: Month is not valid, range is(1-12).";
             return 0;
         }
@@ -53,9 +56,6 @@ int main()
         
         // Displaying date after converting into american standard(MM/DD/YYYY).
         cout<<"Date: "<<mm<<"/"<<dd<<"/"<<date<<endl;
-    }else{
-        // If the date is more or less than 8-digits.
-        cout<<"Error: Date format error.\nIt should be proper 8-digit."<<endl;
     }
 
     return 0;
