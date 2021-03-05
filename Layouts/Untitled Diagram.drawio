@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T22:01:06.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.4" etag="I4eYEu-3Mee2RJSN5YZz" type="github"><diagram id="80e4tZBzRsHxaPHKGbyx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-05T00:16:51.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="UV6OGiAMAcp-TO_N7BdF" version="14.4.4" type="github">
+  <diagram id="80e4tZBzRsHxaPHKGbyx" name="Page-1">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b2glQU7ATPlBNXocOYhP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b2glQU7ATPlBNXocOYhP-1" target="b2glQU7ATPlBNXocOYhP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b2glQU7ATPlBNXocOYhP-2" target="b2glQU7ATPlBNXocOYhP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-2" value="Variable Initialisation&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b2glQU7ATPlBNXocOYhP-4" target="b2glQU7ATPlBNXocOYhP-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="200" />
+              <mxPoint x="280" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-4" value="File stream for Reading variable Creation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b2glQU7ATPlBNXocOYhP-12" target="b2glQU7ATPlBNXocOYhP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-8" value="&amp;nbsp;Verifying for end&lt;br&gt;of file" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-10" value="Counter increment" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-12" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b2glQU7ATPlBNXocOYhP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b2glQU7ATPlBNXocOYhP-8" target="b2glQU7ATPlBNXocOYhP-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
