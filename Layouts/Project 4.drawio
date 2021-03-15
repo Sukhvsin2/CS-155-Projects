@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T22:16:58.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="pj1u12nEEMVdryVH-j2-" version="14.4.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-15T22:18:20.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="H9G_6gSMZJKrwbMd5JEZ" version="14.4.8" type="github" pages="2">
   <diagram id="DDlnrM6xIhdPocqMTLP7" name="Page-1">
     <mxGraphModel dx="865" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,7 +224,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5G9li_ffYl7q7VNlXjR-" name="Page-2">
-    <mxGraphModel dx="865" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="H3MWvXCP5hzWIqcwVup5-0" />
         <mxCell id="H3MWvXCP5hzWIqcwVup5-1" parent="H3MWvXCP5hzWIqcwVup5-0" />
@@ -331,20 +331,26 @@
         <mxCell id="H3MWvXCP5hzWIqcwVup5-35" value="Weighted Average" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
           <mxGeometry x="510" y="60" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="H3MWvXCP5hzWIqcwVup5-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H3MWvXCP5hzWIqcwVup5-1" source="H3MWvXCP5hzWIqcwVup5-36" target="H3MWvXCP5hzWIqcwVup5-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="H3MWvXCP5hzWIqcwVup5-36" value="Sum = param1 + param2 + param3 + param4" style="whiteSpace=wrap;html=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
           <mxGeometry x="510" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H3MWvXCP5hzWIqcwVup5-39" value="Print Statement 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
           <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H3MWvXCP5hzWIqcwVup5-40" value="Print Statement 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
+        <mxCell id="H3MWvXCP5hzWIqcwVup5-40" value="Print Statement 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
           <mxGeometry x="160" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H3MWvXCP5hzWIqcwVup5-41" value="Print Statement 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
+        <mxCell id="H3MWvXCP5hzWIqcwVup5-41" value="Print Statement 3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
           <mxGeometry x="160" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H3MWvXCP5hzWIqcwVup5-42" value="Print Statement 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
+        <mxCell id="H3MWvXCP5hzWIqcwVup5-42" value="Print Statement 4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
           <mxGeometry x="160" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H3MWvXCP5hzWIqcwVup5-43" value="grade = (Sum/80) * 100" style="whiteSpace=wrap;html=1;" vertex="1" parent="H3MWvXCP5hzWIqcwVup5-1">
+          <mxGeometry x="510" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
