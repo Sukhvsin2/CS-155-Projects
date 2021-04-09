@@ -81,6 +81,8 @@ int main(){
 
 
 void outputFinalNeeded(double cWeightAvg){
+	double nMarks = (92.5 - (cWeightAvg * 0.8)) * 5;
+	cout<<nMarks<<endl<<endl;
 	if(cWeightAvg > 100){
 		cout<<"It's impossible to earth that grade!"<<endl;
 	}else if(cWeightAvg <= 0){
