@@ -1,0 +1,16 @@
+/**
+	Name: Min Max
+	Incoming Data: An array with size of array and 2 other integers bfor min & max value.
+	Ooutgoing Data: Nan
+**/
+void minMax(int arr[], int num, int &min, int &max){
+	min = arr[0], max = min;
+	for(int i=0;i<num;i++){
+		if(arr[i] > max){
+			max = arr[i];
+		}
+		if(arr[i] < min){
+			min = arr[i];
+		}
+	}
+}
